@@ -72,21 +72,28 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  box-shadow: 0 0 20px black;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  color: white;
+  text-shadow: 0 0 5 black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
+.tag:hover {
+  transform: scale(1.2);
+}
 .location {
   background-color: #222;
   color: yellow;
+}
+.location:hover {
+  transform: scale(1.2);
 }
 .card {
   margin: 30px;
