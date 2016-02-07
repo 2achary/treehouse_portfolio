@@ -95,6 +95,9 @@ header .profile-image:hover {
 .location:hover {
   transform: scale(1.2);
 }
+.icon {
+  max-width: 1em;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -131,6 +134,9 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+}
+footer div {
+  font-size: 0.5rem;
 }
 
 footer .copyright {
